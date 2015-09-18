@@ -5,14 +5,13 @@
 #include<QSqlQuery>
 #include <QSqlRecord>
 #include <iostream>
-class connexionBD
+
+class ConnexionBD
 {
 public:
-    connexionBD();
-
+    ConnexionBD();
 private:
     QSqlDatabase * maBase;
-
 };
 
 #endif // CONNEXIONBD_H

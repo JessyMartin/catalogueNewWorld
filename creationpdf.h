@@ -1,3 +1,5 @@
+#ifndef CREATIONPDF_H
+#define CREATIONPDF_H
 #include <QSqlDatabase>
 #include <QCoreApplication>
 #include<QSqlQuery>
@@ -8,15 +10,14 @@
 #include <iostream>
 #include <QtGui/QPrinter>
 #include <QtGui/QPainter>
-#include "connexionbd.h"
-#include "creationpdf.h"
-
-using namespace std;
-
-
-int main(int argc, char *argv[])
+class CreationPdf
 {
-    ConnexionBD();
+public:
     CreationPdf();
-    return 0;
-}
+private:
+    int argc;
+    char *argv[];
+    QApplication a(int argc,char *argv);
+};
+
+#endif // CREATIONPDF_H

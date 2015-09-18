@@ -16,7 +16,8 @@ using namespace std;
  * @brief connexion à la bd
  * Permet de ce connecter à la base de donnée
  */
-connexionBD::connexionBD()
+
+ConnexionBD::ConnexionBD()
 {
     // Connexion à la base de donnée
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
@@ -32,5 +33,4 @@ connexionBD::connexionBD()
     {
         cout<<"Echec"<<endl;
     }
-
 }

@@ -16,7 +16,9 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
+    creationpdf.cpp \
     connexionbd.cpp
 
 HEADERS += \
+    creationpdf.h \
     connexionbd.h
