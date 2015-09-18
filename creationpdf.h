@@ -10,6 +10,9 @@
 #include <iostream>
 #include <QtGui/QPrinter>
 #include <QtGui/QPainter>
+#include <QtGui>
+#include <QtCore>
+
 class CreationPdf
 {
 public:
