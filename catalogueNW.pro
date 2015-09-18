@@ -4,9 +4,9 @@
 #
 #-------------------------------------------------
 
-QT       += core
+QT       += core gui
 QT       += sql
-QT       -= gui
+QT       += printsupport
 
 TARGET = catalogueNW
 CONFIG   += console
@@ -15,6 +15,8 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    connexionbd.cpp
 
-HEADERS +=
+HEADERS += \
+    connexionbd.h
