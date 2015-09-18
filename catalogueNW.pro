@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 QT       += core
-
+QT       += sql
 QT       -= gui
 
 TARGET = catalogueNW
@@ -16,3 +16,5 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp
+
+HEADERS +=
