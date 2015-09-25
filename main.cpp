@@ -5,7 +5,6 @@
 #include <iostream>
 #include <QApplication>
 #include <QSqlDatabase>
-#include <iostream>
 #include <QtGui/QPrinter>
 #include <QtGui/QPainter>
 #include "connexionbd.h"

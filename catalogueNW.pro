@@ -7,6 +7,7 @@
 QT       += core gui
 QT       += sql
 QT       += printsupport
+QT       += network
 
 TARGET = catalogueNW
 CONFIG   += console
