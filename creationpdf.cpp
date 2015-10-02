@@ -28,4 +28,10 @@ CreationPdf::CreationPdf()
     img2.load("newWorld.png");
     painter.drawImage(QPoint(5000,0),img2);
 
+    QImage img3("newWorldLogo.png");
+    img3.load("newWorldLogo.png");
+    img3=img3.scaledToWidth(8000);
+    painter.drawImage(QPoint(550,2500),img3);
+
+
 }
