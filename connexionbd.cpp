@@ -27,7 +27,7 @@ ConnexionBD::ConnexionBD()
     maBase->setDatabaseName("jcanto");
     maBase->setPassword("PscX57Q47");
     if(maBase->open()){
-        cout<<"Ok"<<endl;
+        cout<<"Robert"<<endl;
     }
     else
     {
