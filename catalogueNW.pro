@@ -18,8 +18,10 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     creationpdf.cpp \
-    connexionbd.cpp
+    connexionbd.cpp \
+    boucleCreationEnvoieMail.cpp
 
 HEADERS += \
     creationpdf.h \
-    connexionbd.h
+    connexionbd.h \
+    boucleCreationEnvoieMail.h
