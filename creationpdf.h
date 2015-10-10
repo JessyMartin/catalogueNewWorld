@@ -17,6 +17,7 @@ class CreationPdf
 {
 public:
     CreationPdf();
+    void BoucleCreationPdf();
 private:
     int argc;
     char *argv[];

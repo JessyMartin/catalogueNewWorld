@@ -21,6 +21,7 @@ class BoucleCreationEnvoieMail
 {
 public:
     BoucleCreationEnvoieMail();
+    void changerSql();
 private:
     int numUti;
 };
